@@ -3,7 +3,7 @@
 const Header = () => {
   return (
     <header className="">
-      <img className="w-full max-h-96 opacity-80 xl:absolute" src="src/img/aurea2.JPG" alt="Imagen aurea" />
+      <img className="w-full max-h-96 opacity-80 xl:absolute" src="/img/aurea2.JPG" alt="Imagen aurea" />
 
       <div className="md:flex justify-between items-center p-3 font-semibold">
         <h1 className="md:mx-5 py-3 px-10 text-xl lg:text-3xl xl:relative text-center">Áurea Diseño y Arquitectura</h1>

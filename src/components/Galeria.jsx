@@ -19,11 +19,11 @@ const Galeria = () => {
 
                 </div>
                 <div className="my-10 mx-auto lg:mx-5 lg:w-3/5 h-40 lg:h-80 flex container">
-                    <img className=" w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="src/img/galeria1.JPG" alt="Imagen Galeria" />
-                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="src/img/galeria2.JPG" alt="Imagen Galeria" />
-                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="src/img/galeria3.JPG" alt="Imagen Galeria" />
-                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="src/img/galeria4.JPG" alt="Imagen Galeria" />
-                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="src/img/galeria5.JPG" alt="Imagen Galeria" />
+                    <img className=" w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria1.JPG" alt="Imagen Galeria" />
+                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria2.JPG" alt="Imagen Galeria" />
+                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria3.JPG" alt="Imagen Galeria" />
+                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria4.JPG" alt="Imagen Galeria" />
+                    <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria5.JPG" alt="Imagen Galeria" />
                 </div>
             </div>
         </>

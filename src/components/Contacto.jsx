@@ -4,7 +4,7 @@ const Contacto = () => {
     return (
         <div className=" container mx-auto my-5">
             <div>
-                <img className=" md:mx-auto " src="src/img/logo1.JPG" alt="imagen logo" />
+                <img className=" md:mx-auto " src="/img/logo1.JPG" alt="imagen logo" />
 
                 <form className=" w-11/12 md:w-full max-w-lg mx-auto my-5 bg-gray-200 items-center shadow-xl" action="">
                     <h3 className="text-center text-2xl md:text-4xl font-black p-2 my-3 text-emerald-800">Contáctanos</h3>

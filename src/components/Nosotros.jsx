@@ -7,7 +7,7 @@ const Nosotros = () => {
                 ¿Quienes somos?
             </h1>
             <div className="lg:flex">
-                <img className="p-6 lg:w-1/3 mx-auto text-center shadow-xl" src="src/img/nosotros.JPG" alt="Imagen Nosotros" />
+                <img className="p-6 lg:w-1/3 mx-auto text-center shadow-xl" src="/img/nosotros.JPG" alt="Imagen Nosotros" />
                 <div className="flex lg:w-2/3 flex-col justify-center items-center px-10 shadow-xl">
                     <p className="text-xl md:text-2xl font-semibold px-5 my-3 text-center ">Somos una empresa arquitectónica que brinda
                         soluciones constructivas de estilo tropical en Costa
