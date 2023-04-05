@@ -1,10 +1,10 @@
 
 
-const Galeria = () => {
+const Galeria = ({proyectosref}) => {
     return (
         <>
 
-            <div className="text-center mt-10 text-3xl font-extrabold">
+            <div ref={proyectosref} className="text-center mt-10 text-3xl font-extrabold">
                 <h2>Nuestros Proyectos</h2>
             </div>
             <div className="lg:flex justify-center items-center">
@@ -25,6 +25,10 @@ const Galeria = () => {
                     <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria4.JPG" alt="Imagen Galeria" />
                     <img className="w-10 lg:w-24 flex-grow object-cover opacity-80 transicion hover:cursor-crosshair hover:w-40 lg:hover:w-80 hover:opacity-100 hover:contrast-125" src="/img/galeria5.JPG" alt="Imagen Galeria" />
                 </div>
+            </div>
+
+            <div>
+                <h2 className="bg-emerald-700 w-2/3 md:w-2/5 text-center mx-auto py-3 rounded-xl text-white text-xl md:text-2xl font-bold hover:cursor-pointer hover:bg-emerald-900"><a href="https://trebolstudio.pixieset.com/portafoliodeproyectosarqmelaneacevedo/">{'<<'} Ver más de nuestros proyectos{'>>'}</a></h2>
             </div>
         </>
     )

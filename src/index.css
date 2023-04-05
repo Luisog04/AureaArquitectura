@@ -3,7 +3,8 @@
 @tailwind utilities;
 
 html {
-    background-image: url('src/img/fondo.JPG');
+    background-image: url('/img/fondo.JPG');
+    
 }
 
 .transicion {

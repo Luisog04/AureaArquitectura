@@ -1,8 +1,8 @@
 
 
-const Nosotros = () => {
+const Nosotros = ({nosotrosref}) => {
     return (
-        <div className=' container mx-auto xl:pt-80'>
+        <div ref={nosotrosref} className=' container mx-auto xl:pt-80'>
             <h1 className="text-center text-3xl font-black p-3 mb-2">
                 ¿Quienes somos?
             </h1>
